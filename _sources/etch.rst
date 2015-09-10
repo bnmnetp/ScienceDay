@@ -55,6 +55,46 @@ The Etch-A-Sketch was introduced by the Ohio Art Company in 1960.  As you can se
 
 .. image:: ../_static/Classic-Etch-A-Sketch.jpg
 
+
+.. activecode:: etch1
+
+   import turtle
+
+
+   myT = turtle.Turtle()
+   wn = turtle.Screen()
+   myT.color('blue')
+   myT.pensize(2)
+   myT.speed(0)
+
+   distance = 5
+   turn = 10
+
+
+   def fwd():
+       myT.forward(distance)
+
+   def bkwd():
+       myT.backward(distance)
+
+   def left():
+       myT.left(turn)
+
+   def right():
+       myT.right(turn)
+
+   def quit():
+       wn.bye()
+
+   wn.onkey(fwd,"f")
+   wn.onkey(bkwd,"b")
+   wn.onkey(left,"l")
+   wn.onkey(right,"r")
+   wn.onkey(quit,"q")
+   wn.listen()
+   wn.mainloop()
+
+
 Your assignment is to write a program that mimics the etch-a-sketch.  You will need functions to handle the following events:
 
 * go to the left by five pixels
