@@ -6,7 +6,7 @@ Event Driven Programming
 
 Many programs that we write in introductory computer science follow a similar pattern.  Your program starts at line 1 and runs to the end on line N.  The order of events in the program is quite predictable because Python evaluates the program top to bottom left to right.  But it doesn't have to be that way.  In fact nearly all of the programs you use daily have a different pattern.
 
-Most of the programs you use each day following the pattern of start -- wait for the user to click something -- respond to click -- repeat forever.  This makes programming much more challenging because you can't predict the order that things will happen, your program simply must respond to **events**.  When you write a program that responds to user events this is called event driven programming.
+Most of the programs you use each day follow the pattern of start -- wait for the user to click something -- respond to click -- repeat forever.  This makes programming much more challenging because you can't predict the order that things will happen, your program simply must respond to **events**.  When you write a program that responds to user events this is called event driven programming.
 
 Lets look at a simple example.  Suppose we want to write a turtle program where we have the turtle respond to a mouse click in the window.  That is, whenever a user clicks in the window, the turtle will draw a line to that spot.  Notice that we don't know when or where the user will click so we cannot anticipate where to draw the lines until the user has taken an action.
 
