@@ -135,7 +135,7 @@ on its basic color intensities.
 
 .. raw:: html
 
-    <img src="../_static/LutherBellPic.jpg" id="luther.jpg">
+    <img src="./_static/LutherBellPic.jpg" id="luther.jpg">
 
 
 
@@ -228,12 +228,12 @@ The program below implements this algorithm using the previous image (luther.jpg
 
 .. raw:: html
 
-    <img src="../_static/cy.png" id="cy.png">
+    <img src="./_static/cy.png" id="cy.png">
     <h4 style="text-align: center;">cy.png</h4>
 
 .. raw:: html
 
-    <img src="../_static/goldygopher.png" id="goldygopher.png">
+    <img src="./_static/goldygopher.png" id="goldygopher.png">
     <h4 style="text-align: center;">goldygopher.png</h4>
 
 
